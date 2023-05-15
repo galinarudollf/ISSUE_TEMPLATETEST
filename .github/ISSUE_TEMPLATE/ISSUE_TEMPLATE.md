@@ -8,7 +8,7 @@ about: Erstelle eine Anfrage für ein neues Feature
 
 ### Beschreibung
 
-Eine klare und prägnante Beschreibung des gewünschten Features.
+description: Eine klare und prägnante Beschreibung des gewünschten Features.
 
 ### Hintergrund
 
