@@ -1,4 +1,8 @@
 blank_issues_enabled: false
+issue_template:
+  - name: Feature-Anfrage
+    about: Erstelle eine Anfrage für ein neues Feature
+    file: ISSUE_TEMPLATE_FEATURE.md
 contact_links:
   - name: GitHub Community Support
     url: https://github.com/orgs/community/discussions
