@@ -1,0 +1,50 @@
+			im Browser
+1) Neues Repository:
+	github.com im Browser
+	New
+
+2) Issues hihzufügen:
+	New issues
+		Assignees ->Personen
+		Milestone ->Termine
+			Ein milestone kann mit issues oder pull requests assoziirt werden.
+ 			Mit Meilensteinen können Sie Problemstellungen organisieren, mit einem optionalen Startdatum und einem optionalen Fälligkeitsdatum
+
+			lokal mit Client
+3) Client installieren, z.B. Git CMD (git-scm.com)
+
+4) ein bash mit der rechten Maustaste aus dem Explorer heraus öffnen
+	1. git clone http://...
+	2. cd in das Verzeichnis
+	   git branch
+	   md uv
+	3. git checkout -b neu_branch
+	   git branch
+	4. git add uv
+	5. datei(en) rein kopieren bzw. darin erstellen
+	   git add .
+	6. git commit -a -m "kommentar" (git commit -m "kommentar")
+	7. git pull origin
+	   git push origin neu_branch
+
+			im Browser
+5) rechts: compare & pull request
+   aus close ohne merge möglich: close request
+
+
+Review erstellen:
+1) Pull request auswählen
+2) Click auf Files changed
+3) oberhalb des geänderten Codes -> click auf Review 
+4) Kommentar erfassen
+	- Comment: nur kommentieren
+	- Approve: feedback und Bestätigung
+	- Request changes: vor dem Merge Veränderungen anfordern
+
+Pull request über Fork
+Auf der Seite des Originals!
+1) Zum Reiter Pull requests wechseln
+2) Button "New pull request" (wechselt ggf. authomatisch zum Original)
+3) Weiter über Link "compare across forks"
+	links: repository & branch auf original-Seite
+	rechts: repository & branch auf geforkter-Seite
