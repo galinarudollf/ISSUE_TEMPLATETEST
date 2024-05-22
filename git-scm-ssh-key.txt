@@ -1,0 +1,37 @@
+1) Download client:
+https://git-scm.com/download/
+
+2) Installieren client, üblicherweise in 
+C:\Users\xxx\AppData\Local\Programs\Git
+
+3)
+Aufruf aus Explorer: RMT>Open Git Bash here
+
+4)
+Commiter konfigurieren:
+git config --global user.name "Your Name"
+git config --global user.email you@example.com
+
+-----------------------------------------------
+ssh-key Zugang: s.
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+1) 
+
+Generieren eines neuen SSH-Schlüssels
+- Git Bash öffnen
+- ssh-keygen -t ed25519 -C "your_email@example.com" oder ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+2)
+OpenSSH Authentication Agent starten und Schlüssels zum ssh-agent hinzufügen, z.B.:
+ssh-add c:/Users/xxx/.ssh/id_rsa
+
+3) Einen neuen SSH-Schlüssel zum GitHub-Konto hinzufügen:
+Settings>SSH and GPG keys
+
+
+-----------------------------------------------
+Zugang über Developer Personal access tokens:
+https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens
+
+Settings>Developer Settings>Personal access tokens
