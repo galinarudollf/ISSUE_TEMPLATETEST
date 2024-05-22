@@ -1,8 +1,9 @@
 			im Browser
+in der Aufgabe03 entfällt 1.er Schritt
 1) Neues Repository:
 	github.com im Browser
 	New
-
+ab hier:
 2) Issues hihzufügen:
 	New issues
 		Assignees ->Personen
@@ -10,22 +11,22 @@
 			Ein milestone kann mit issues oder pull requests assoziirt werden.
  			Mit Meilensteinen können Sie Problemstellungen organisieren, mit einem optionalen Startdatum und einem optionalen Fälligkeitsdatum
 
-			lokal mit Client
+			lokal mit Client:
 3) Client installieren, z.B. Git CMD (git-scm.com)
 
 4) ein bash mit der rechten Maustaste aus dem Explorer heraus öffnen
 	1. git clone http://...
 	2. cd in das Verzeichnis
+	   git branch                   zeigt vorhandene branches
+	   md uv 	                erstellt ein Unterfolder, nur wenn es nötig ist
+	3. git checkout -b neu_branch   erstellt neu_branch
 	   git branch
-	   md uv
-	3. git checkout -b neu_branch
-	   git branch
-	4. git add uv
+	4. git add uv                   stellt uv-Foder unter git-Kontrolle
 	5. datei(en) rein kopieren bzw. darin erstellen
-	   git add .
+	   git add .			stellt alles im Verzeichnis unter git-Kontrolle
 	6. git commit -a -m "kommentar" (git commit -m "kommentar")
-	7. git pull origin
-	   git push origin neu_branch
+	7. git pull origin		synchronisiert lokale Version mit der Version auf dem Server
+	   git push origin neu_branch   pusht die lokale Version zum Server
 
 			im Browser
 5) rechts: compare & pull request
