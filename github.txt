@@ -17,16 +17,16 @@ ab hier:
 4) ein bash mit der rechten Maustaste aus dem Explorer heraus öffnen
 	1. git clone http://...
 	2. cd in das Verzeichnis
-	   git branch                   zeigt vorhandene branches
-	   md uv 	                erstellt ein Unterfolder, nur wenn es nötig ist
-	3. git checkout -b neu_branch   erstellt neu_branch
+	   git branch                       zeigt vorhandene branches
+	   md uv 	                    erstellt ein Unterfolder, nur wenn es nötig ist
+	3. git checkout -b neu_branch       erstellt neu_branch
 	   git branch
-	4. git add uv                   stellt uv-Foder unter git-Kontrolle
-	5. datei(en) rein kopieren bzw. darin erstellen
-	   git add .			stellt alles im Verzeichnis unter git-Kontrolle
-	6. git commit -a -m "kommentar" (git commit -m "kommentar")
-	7. git pull origin		synchronisiert lokale Version mit der Version auf dem Server
-	   git push origin neu_branch   pusht die lokale Version zum Server
+	4. git add uv                       stellt uv-Foder unter git-Kontrolle
+	5. datei(en) rein kopieren bzw.     darin erstellen
+	   git add .			    stellt alles im Verzeichnis unter git-Kontrolle
+	6. git commit -a -m "kommentar"     (git commit -m "kommentar")
+	7. git pull REMOTE-NAME		    synchronisiert lokale Version mit der Version auf dem Server
+	   git push REMOTE-NAME BRANCH-NAME pusht die lokale Version zum Server (z.B. git push origin neu_branch)   
 
 			im Browser
 5) rechts: compare & pull request
